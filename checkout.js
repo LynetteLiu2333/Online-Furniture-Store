@@ -13,14 +13,6 @@ function initCart() {
     renderCart();
 }
 
-// // Retrieve cart data from cookies
-// function getCartFromCookies() {
-//     const cookieValue = document.cookie
-//         .split("; ")
-//         .find(row => row.startsWith("list-cart="));
-//     return cookieValue ? JSON.parse(cookieValue.split("=")[1]) : [];
-// }
-
 // Render cart items to the HTML
 function renderCart() {
     listCartHTML.innerHTML = "";
