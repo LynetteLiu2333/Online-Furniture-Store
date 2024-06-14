@@ -117,7 +117,7 @@ function changeQuantity(productId, type) {
         productInCart.quantity++;
     } else if (type === "-") {
         productInCart.quantity--;
-
+        // Ensures that only products with a positive quantity remain in the cart
         if (productInCart.quantity <= 0) {
             listCart = listCart.filter(item => item && item.id !== productId);
         }
