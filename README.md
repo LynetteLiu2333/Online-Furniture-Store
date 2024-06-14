@@ -1,4 +1,4 @@
-# Blackjack Card Game
+# Online Furniture Store
 
 ## Table of contents
 
