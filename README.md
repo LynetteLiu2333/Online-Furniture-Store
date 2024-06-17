@@ -20,7 +20,7 @@ This project develops a user-friendly website aimed at establishing a basic onli
 
 ### Links
 
-- Live Site URL: [xxx]
+- Live Site URL: [https://online-furniture-store.onrender.com]
 
 ### Built with
 
