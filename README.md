@@ -12,7 +12,7 @@
 
 ## Overview
 
-This project develops a user-friendly website aimed at establishing a basic online furniture store. It incorporates essential features such as a straightforward user interface for browsing and buying furniture items, ensuring a simple and direct shopping experience.
+This project involves the development of a user-friendly website designed to serve as a basic online furniture store. It features an simplistic interface for browsing and purchasing furniture items, ensuring a straightforward shopping experience. Additionally, it includes Stripe payment integration to facilitate secure transactions.
 
 ### Screenshot
 
@@ -44,7 +44,9 @@ This project develops a user-friendly website aimed at establishing a basic onli
 
 6. Best Practices: I adhered to best practices such as using descriptive function and variable names, optimizing code for performance, and ensuring clean, readable, and maintainable code throughout the project.
 
-Overall, this project provided a hands-on learning experience that combined technical skills with practical considerations for building robust and user-friendly web applications.
+7. Implemented server-side Stripe integration using Express.js to handle creating Checkout Sessions for online payments.
+
+8. Utilized Stripe's API to dynamically generate Checkout Sessions based on user-selected items.
 
 ### Continued development
 
