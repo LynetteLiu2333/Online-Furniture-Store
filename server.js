@@ -28,8 +28,8 @@ app.post("/create-checkout-session", async (req, res) => {
                 quantity: item.quantity,
             })),
             mode: "payment",
-            success_url: "http://localhost:3001/checkout.html",
-            cancel_url: "http://localhost:3001/checkout.html",
+            success_url: "https://online-furniture-store.onrender.com/checkout.html",
+            cancel_url: "https://online-furniture-store.onrender.com/checkout.html",
         });
 
         res.json({ id: session.id });
