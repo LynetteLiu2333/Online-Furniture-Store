@@ -7,7 +7,7 @@ const totalPriceHTML = document.querySelector(".total-price");
 
 let listCart = [];
 
-// Initialize and render cart from cookies
+// Initialize and render cart from local storage
 function initCart() {
     listCart = getCartFromLocalStorage();
     renderCart();
