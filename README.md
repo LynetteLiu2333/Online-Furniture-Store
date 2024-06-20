@@ -47,7 +47,3 @@ This project involves the development of a user-friendly website designed to ser
 7. Implemented server-side Stripe integration using Express.js to handle creating Checkout Sessions for online payments.
 
 8. Utilized Stripe's API to dynamically generate Checkout Sessions based on user-selected items.
-
-### Continued development
-
-For future development, this project could focus on enhancing user experience by implementing features such as real-time updates using WebSockets for cart management. Additionally, improving accessibility features like keyboard navigation and screen reader compatibility would broaden the application's reach. Lastly, integrating secure payment gateways and implementing user authentication for personalized shopping experiences would further enhance the project's functionality and security.
