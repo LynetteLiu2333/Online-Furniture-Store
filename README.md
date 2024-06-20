@@ -27,6 +27,8 @@ This project involves the development of a user-friendly website designed to ser
 - HTML
 - CSS
 - Javascript
+- Express.js
+- Stripe API
 
 ## My process
 
