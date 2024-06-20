@@ -36,11 +36,9 @@ This project involves the development of a user-friendly website designed to ser
 
 **Front-End Development:**
 
-- Dynamic Content Management: Utilized JavaScript to dynamically manage content and user interactions on the front-end. This included handling product listings and user cart interactions (e.g., app.js, cartUtils.js).
+- Dynamic Content Management & User Interaction: Utilized JavaScript to dynamically manage content and user interactions on the front-end. This included handling product listings and user cart interactions, toggling cart visibility, adding products to a cart, adjusting quantities, and updating the UI dynamically based on user actions.
 
-- Third-Party Integrations: Integrated third-party services such as Stripe for payment processing (e.g., stripeCheckout.js).
-
-- Data Management: Used JSON to store and retrieve product data efficiently (e.g., product.json). This facilitated dynamic content loading and rendering on the front-end.
+- Data Management: Used JSON to store and retrieve product data efficiently (e.g., product.json). This facilitated dynamic content loading and rendering on the front-end. I also explored different techniques for managing data within a web application, including storage options like cookies, local storage, and session storage. I gained insights into when each storage method is appropriate based on data persistence requirements.
 
 **Back-End Development:**
 
