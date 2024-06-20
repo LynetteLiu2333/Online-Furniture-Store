@@ -34,18 +34,22 @@ This project involves the development of a user-friendly website designed to ser
 
 ### What I learned
 
-1. JavaScript Fundamentals: I deepened my understanding of JavaScript fundamentals, including DOM manipulation, event handling, and asynchronous operations like fetching data from JSON files.
+**Front-End Development:**
 
-2. Data Management: I explored different techniques for managing data within a web application, including storage options like cookies, local storage, and session storage. I gained insights into when each storage method is appropriate based on data persistence requirements.
+- Dynamic Content Management: Utilized JavaScript to dynamically manage content and user interactions on the front-end. This included handling product listings and user cart interactions (e.g., app.js, cartUtils.js).
 
-3. Modular Development: I practiced modular development by organizing code into separate files and using ES6 module syntax for better structure and maintainability. This approach helped in separating concerns and improving code readability.
+- Third-Party Integrations: Integrated third-party services such as Stripe for payment processing (e.g., stripeCheckout.js).
 
-4. User Interaction: I enhanced my skills in handling user interactions such as toggling cart visibility, adding products to a cart, adjusting quantities, and updating the UI dynamically based on user actions.
+- Data Management: Used JSON to store and retrieve product data efficiently (e.g., product.json). This facilitated dynamic content loading and rendering on the front-end.
 
-5. Debugging and Error Handling: I gained experience in debugging JavaScript code, identifying common errors like null references and handling them gracefully to ensure the application functions correctly.
+**Back-End Development:**
 
-6. Best Practices: I adhered to best practices such as using descriptive function and variable names, optimizing code for performance, and ensuring clean, readable, and maintainable code throughout the project.
+- Server Setup: Learned to set up a server using Node.js and Express (e.g., server.js). This included configuring routes for handling HTTP requests and serving static files.
 
-7. Implemented server-side Stripe integration using Express.js to handle creating Checkout Sessions for online payments.
+- Middleware Usage: Implemented middleware for handling various aspects of request processing, such as parsing JSON bodies and managing sessions.
 
-8. Utilized Stripe's API to dynamically generate Checkout Sessions based on user-selected items.
+- Dependencies: Managed project dependencies using package.json and package-lock.json. This included understanding the role of different packages and how they contribute to the project's functionality.
+
+- Stripe Integration: Integrated Stripe for handling payment processing securely and efficiently. This involved setting up Stripe on both the client and server sides to manage transactions and ensure data security.
+
+- Git: Utilized Git for version control, ensuring that changes to the codebase are tracked and managed properly (e.g., .gitignore).
