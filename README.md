@@ -21,6 +21,8 @@ This project involves the development of a user-friendly website designed to ser
 
 - Live Site URL: [https://online-furniture-store.onrender.com]
 
+## My process
+
 ### Built with
 
 - HTML
@@ -28,8 +30,6 @@ This project involves the development of a user-friendly website designed to ser
 - Javascript
 - Express.js
 - Stripe API
-
-## My process
 
 ### What I learned
 
